@@ -1,0 +1,9 @@
+.application-wrapper {
+  position: relative;
+  height: 100%;
+  width: calc(100% - 250px);
+  left: 250px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}

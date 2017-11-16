@@ -1,0 +1,87 @@
+@import "compass"; // this should already be covered in app.scss though
+$font-avenir-next: "Avenir Next";
+$font-path-prefix: "avenir-next/AvenirNext-";
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}UltraLight.woff",
+    "#{$font-path-prefix}UltraLight.ttf",
+    "#{$font-path-prefix}UltraLight.svg#avenirnextultralight"
+  ), "#{$font-path-prefix}UltraLight.eot?#iefix", 200);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}UltraLightItalic.woff",
+    "#{$font-path-prefix}UltraLightItalic.ttf",
+    "#{$font-path-prefix}UltraLightItalic.svg#avenirnextultralightitalic"
+  ), "#{$font-path-prefix}UltraLightItalic.eot?#iefix", 200, italic);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}Regular.woff",
+    "#{$font-path-prefix}Regular.ttf",
+    "#{$font-path-prefix}Regular.svg#avenirnextregular"
+  ), "#{$font-path-prefix}Regular.eot?#iefix", 400);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}Italic.woff",
+    "#{$font-path-prefix}Italic.ttf",
+    "#{$font-path-prefix}Italic.svg#avenirnextitalic"
+  ), "#{$font-path-prefix}Italic.eot?#iefix", 400, italic);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}Medium.woff",
+    "#{$font-path-prefix}Medium.ttf",
+    "#{$font-path-prefix}Medium.svg#avenirnextmedium"
+  ), "#{$font-path-prefix}Medium.eot?#iefix", 500);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}MediumItalic.woff",
+    "#{$font-path-prefix}MediumItalic.ttf",
+    "#{$font-path-prefix}MediumItalic.svg#avenirnextmediumitalic"
+  ), "#{$font-path-prefix}MediumItalic.eot?#iefix", 500, italic);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}DemiBold.woff",
+    "#{$font-path-prefix}DemiBold.ttf",
+    "#{$font-path-prefix}DemiBold.svg#avenirnextdemibold"
+  ), "#{$font-path-prefix}DemiBold.eot?#iefix", 600);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}DemiBoldItalic.woff",
+    "#{$font-path-prefix}DemiBoldItalic.ttf",
+    "#{$font-path-prefix}DemiBoldItalic.svg#avenirnextdemibolditalic"
+  ), "#{$font-path-prefix}DemiBoldItalic.eot?#iefix", 600, italic);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}Bold.woff",
+    "#{$font-path-prefix}Bold.ttf",
+    "#{$font-path-prefix}Bold.svg#avenirnextbold"
+  ), "#{$font-path-prefix}Bold.eot?#iefix", 700);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}BoldItalic.woff",
+    "#{$font-path-prefix}BoldItalic.ttf",
+    "#{$font-path-prefix}BoldItalic.svg#avenirnextbolditalic"
+  ), "#{$font-path-prefix}BoldItalic.eot?#iefix", 700, italic);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}Heavy.woff",
+    "#{$font-path-prefix}Heavy.ttf",
+    "#{$font-path-prefix}Heavy.svg#avenirnextheavy"
+  ), "#{$font-path-prefix}Heavy.eot?#iefix", 800);
+
+@include font-face($font-avenir-next,
+  font-files(
+    "#{$font-path-prefix}HeavyItalic.woff",
+    "#{$font-path-prefix}Italic.ttf",
+    "#{$font-path-prefix}Italic.svg#avenirnextheavyitalic"
+  ), "#{$font-path-prefix}Italic.eot?#iefix", 800);

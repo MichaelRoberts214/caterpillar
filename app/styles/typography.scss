@@ -1,0 +1,16 @@
+body {
+  font-family: "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+}
+
+h1, .h1 {
+  font-size: 30px;
+}
+
+.text-subtitle {
+  color: #a0a0a0;
+}
+
+.text-unit {
+  font-size: calc((2vw + 2vh + 1vmin) / 2);
+}
