@@ -1,0 +1,13 @@
+@mixin push-transition {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@mixin gpu-transform-left($value) {
+  -moz-transform: translate3d($value, 0, 0);
+  -ms-transform: translate3d($value, 0, 0);
+  -o-transform: translate3d($value, 0, 0);
+  -webkit-transform: translate3d($value, 0, 0);
+  transform: translate3d($value, 0, 0);
+}

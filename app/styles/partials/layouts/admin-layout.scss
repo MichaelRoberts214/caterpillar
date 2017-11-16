@@ -1,0 +1,36 @@
+.admin-layout {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.8em;
+
+  :last-child {
+    border: none;
+  }
+
+  li {
+    border-right: 1px solid #ccc;
+    float: left;
+
+    :hover, :focus {
+      background: #f6f6f6;
+    }
+
+    a {
+      padding: 0 0.8em;
+      color: #312f38;
+      text-decoration: none;
+      display: inline-block;
+      text-align: center;
+
+    }
+  }
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}

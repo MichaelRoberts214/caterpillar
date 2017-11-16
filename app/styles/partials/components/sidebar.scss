@@ -1,0 +1,76 @@
+@import 'mixins';
+
+.page-sidebar {
+  font-size: 14px;
+  text-transform: uppercase;
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  h3 {
+    padding: 0 16px;
+    margin-top: 20px;
+  }
+
+  ul {
+    text-transform: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.8em;
+
+    :last-child {
+      border: none;
+    }
+
+    li {
+      border-bottom: 1px solid #ccc;
+      display: block;
+
+      a {
+        color: #312f38;
+        padding: 0 0.8em;
+        text-decoration: none;
+        display: block;
+
+        &:hover, &:focus {
+          background: #f6f6f6;
+        }
+      }
+    }
+  }
+
+  .sidebar-header {
+    li {
+      border: none;
+    }
+
+    h3 {
+      margin: 0;
+    }
+  }
+}
+
+/* collapsed sidebar styles */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 41.6%;
+  }
+  #sidebar {
+    padding-top:0;
+  }
+}
